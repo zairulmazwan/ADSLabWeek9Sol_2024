@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zairulmazwan/Dotnet/ADSLabWeek9_2024/ADSLab9/ADSLab9.csproj": {}
+    "/Users/zairulmazwan/Dotnet/ADSLabWeek9Sol_2024/ADSLab9/ADSLab9.csproj": {}
   },
   "projects": {
-    "/Users/zairulmazwan/Dotnet/ADSLabWeek9_2024/ADSLab9/ADSLab9.csproj": {
+    "/Users/zairulmazwan/Dotnet/ADSLabWeek9Sol_2024/ADSLab9/ADSLab9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zairulmazwan/Dotnet/ADSLabWeek9_2024/ADSLab9/ADSLab9.csproj",
+        "projectUniqueName": "/Users/zairulmazwan/Dotnet/ADSLabWeek9Sol_2024/ADSLab9/ADSLab9.csproj",
         "projectName": "ADSLab9",
-        "projectPath": "/Users/zairulmazwan/Dotnet/ADSLabWeek9_2024/ADSLab9/ADSLab9.csproj",
+        "projectPath": "/Users/zairulmazwan/Dotnet/ADSLabWeek9Sol_2024/ADSLab9/ADSLab9.csproj",
         "packagesPath": "/Users/zairulmazwan/.nuget/packages/",
-        "outputPath": "/Users/zairulmazwan/Dotnet/ADSLabWeek9_2024/ADSLab9/obj/",
+        "outputPath": "/Users/zairulmazwan/Dotnet/ADSLabWeek9Sol_2024/ADSLab9/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zairulmazwan/.nuget/NuGet/NuGet.Config"

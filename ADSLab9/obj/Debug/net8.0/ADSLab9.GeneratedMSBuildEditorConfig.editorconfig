@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ADSLab9
-build_property.ProjectDir = /Users/zairulmazwan/Dotnet/ADSLabWeek9_2024/ADSLab9/
+build_property.ProjectDir = /Users/zairulmazwan/Dotnet/ADSLabWeek9Sol_2024/ADSLab9/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
