@@ -43,6 +43,39 @@ public class HillClimbing
             ReadWriteFile.writeSolutions(solutions, "solutions.csv");
     }
 
+    public void runSHC(int iter)
+    {
+        double T = 25.0;
+        double pr = 0.00;
+        double treshold = 0.46;
+         // Create a new solution
+         Scales sol = new Scales();
+         Scales newSol = new Scales();
+
+        // copy the existion solution to the new solution
+         newSol.copySolution(sol.solution);
+
+         for (int i=0; i<iter; i++)
+         {
+            Console.WriteLine("Iter :"+i);
+            Console.WriteLine("Current fitness :"+sol.fitness);
+
+            // perform a small change toward the new solution
+            newSol = smallChange(newSol,3);
+            Console.WriteLine("New fitness :"+newSol.fitness);
+            double diff_fitness = newSol.fitness-sol.fitness;
+            pr = 1/(1+(Math.Pow(Math.Exp(1),diff_fitness/T)));
+            Console.WriteLine("Pr :"+pr);
+
+            if (pr>treshold)
+            {
+                sol.copySolution(newSol.solution);
+            }
+            Console.WriteLine();
+         }
+        Console.WriteLine("Final fitness :"+sol.fitness);
+    }
+
     public Scales smallChange(Scales newSol, int n)
     {
         Random r = new Random();
