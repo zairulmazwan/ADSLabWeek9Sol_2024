@@ -4,7 +4,6 @@ public class HillClimbing
     public HillClimbing(List<Double> d)
     {
         data = new List<double>(d);
-        // solution = new Scales();
     }
 
     public void runHC(int iter)

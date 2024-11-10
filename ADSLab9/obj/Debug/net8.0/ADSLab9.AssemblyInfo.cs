@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ADSLab9")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c79bbca9ae64461be20f2ef9226c525895ba4aa2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fde5ee674784890155e75b9817cefcc8da6ff30")]
 [assembly: System.Reflection.AssemblyProductAttribute("ADSLab9")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ADSLab9")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
