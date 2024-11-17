@@ -16,7 +16,7 @@ public class HillClimbing
         Scales newSol = new Scales();
         // copy the existion solution to the new solution
         newSol.copySolution(solution.solution);
-        // Start searching a solution
+        // Start searching solutions
         for (int i = 0; i<iter; i++)
         {   
             result[i,0] = i;
@@ -32,7 +32,7 @@ public class HillClimbing
             Console.WriteLine("New Solution Fitness "+newSol.fitness);
             newSol.printSol();
 
-            // If tne new solution is better than the current solution, we copy the solution from the new one
+            // If tne new solution is better than the current solution, we copy the solution from the new one to the current solution
             if (newSol.fitness<solution.fitness)
             {
                 solution.copySolution(newSol.solution);
@@ -43,6 +43,8 @@ public class HillClimbing
             ReadWriteFile.writeSolutions(solutions, "solutions.csv");
     }
 
+
+    // This method is an additional exercise for Stochastic Hill Climbing, which is not part of the tutorial.
     public void runSHC(int iter)
     {
         double T = 25.0;
@@ -65,7 +67,7 @@ public class HillClimbing
             Console.WriteLine("New fitness :"+newSol.fitness);
             double diff_fitness = newSol.fitness-sol.fitness;
             pr = 1/(1+(Math.Pow(Math.Exp(1),diff_fitness/T)));
-            Console.WriteLine("Pr :"+pr);
+            Console.WriteLine("Pr :"+pr+" versus the threshold "+treshold);
 
             if (pr>treshold)
             {
