@@ -83,7 +83,7 @@ public class HillClimbing
         Random r = new Random();
         for(int i=0; i<n; i++)    
         {
-            int a = r.Next(2);
+            int a = r.Next(newSol.solution.Count);
             if(newSol.solution[a]==0)
                 newSol.solution[a] = 1;
             else    
